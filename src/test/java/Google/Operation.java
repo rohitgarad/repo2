@@ -26,7 +26,7 @@ public class Operation {
 		
 	List<WebElement> suggestion = driver.findElements(By.xpath("//li[@role]"));
 	
-	System.err.println(suggestion);
+	System.out.println(suggestion);
 	
 	for (WebElement i : suggestion) {
 		
@@ -35,19 +35,20 @@ public class Operation {
 	}
 	
 	Thread.sleep(5000);
-//	
-//    for (WebElement multiple : suggestion) {
-//    	if(multiple.getText().equals("selenium webdriver")) {
-//    		multiple.click();
-//    		break;
-//    	}
-//    	Thread.sleep(5000);
+	
+    for (WebElement i : suggestion) {
+    	if(i.getText().equals("selenium webdriver")) {
+    		i.click();
+    		break;
+    	}
+    	Thread.sleep(5000);
     
 	
 	
-	driver.close();
+	// driver.close();
 		
 		
+	}
 	}
 }
 

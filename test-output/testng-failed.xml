@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Google.Operation">
+      <class name="datapro.New">
         <methods>
-          <include name="selenium"/>
+          <include name="loginfunction"/>
         </methods>
-      </class> <!-- Google.Operation -->
+      </class> <!-- datapro.New -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
